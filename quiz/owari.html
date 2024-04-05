@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>終了</title>
+    <style>
+        body{
+            background-color: #ffdebd;
+        }
+        a{
+            font-size: 40px;
+            text-decoration: none;
+            color: #ff0000;
+        }
+        h2{
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>クイズは終わりです！！遊んでくれてありがとう！</h1>
+    <h2 id="score">JavaScriptが適用されていないか無効です。</h2>
+    <a href="./index.html"><b>もう一度する！</b></a>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const value = urlParams.get('score');
+        document.getElementById("score").textContent = value;
+    </script>
+</body>
+</html>

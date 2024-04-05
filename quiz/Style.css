@@ -1,0 +1,17 @@
+@charset "utf-8";
+body{
+    background-color: #ffdebd;
+}
+button{
+    font-size: 25px;
+    width: 300px;
+    margin-top: 40px;
+    height: 60PX;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #ff5e00;
+}
+#mondaihyouji{
+    height: 80px;
+    background-color: #f79aff;
+}
