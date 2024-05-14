@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <script src="./Script.js"></script>
+    <title>どちらがお得？</title>
+</head>
+<body>
+    <!-- 入力画面 -->
+
+    <div id="aaa">
+    <h1>どちらがお得？</h1>
+
+
+    <div id="hikaku_1">
+        <h2>比較A</h2>
+        <label class="ll">商品名：</label><input type="text" id="name_1" maxlength="20">
+        <br><label class="ll">内容量：</label><input type="number" id="naiyou_1">
+        <br><label class="ll">値段：</label><input type="number" id="nedan_1"><label>円</label>
+    </div>
+
+    <div id="hikaku_2">
+        <h2>比較B</h2>
+        <label class="ll">商品名：</label><input type="text" id="name_2" maxlength="20">
+        <label class="ll">内容量：</label><input type="number" id="naiyou_2">
+        <br><label class="ll">値段：</label><input type="number" id="nedan_2"><label>円</label>
+    </div>
+
+    <div id="hikaku_3">
+        <h2>比較C</h2>
+        <label class="ll" style="font-size: 15px; color: rgb(90, 90, 90);">比較する場合：</label><input type="checkbox" id="cb1" value="yes"><br>
+        <label class="ll">商品名：</label><input type="text" id="name_3" maxlength="20">
+        <label class="ll">内容量：</label><input type="number" id="naiyou_3">
+        <br><label class="ll">値段：</label><input type="number" id="nedan_3"><label>円</label>
+    </div>
+
+    <div id="hikaku_4">
+        <h2>比較D</h2>
+        <label class="ll" style="font-size: 15px; color: rgb(90, 90, 90);">比較する場合：</label><input type="checkbox" id="cb2" value="yes"><br>
+        <label class="ll">商品名：</label><input type="text" id="name_4" maxlength="20">
+        <label class="ll">内容量：</label><input type="number" id="naiyou_4">
+        <br><label class="ll">値段：</label><input type="number" id="nedan_4"><label>円</label>
+    </div>
+
+    <p id="err"></p>
+    <button id="okok" onclick="main()"><b>どれがお得か計算する！</b></button>
+    </div>
+
+
+    <!-- 結果画面 -->
+
+    <div id="bbb">
+        <h1 id="ajxt">結果</h1>
+        <h3>一番オトクな商品は</h3>
+        <h1 id="kekka" style="color: red;"></h1>
+        <h3 id="kekkasy" style="color: red;"></h3>
+        <h3 id="kekkasyy" style="color: red;"></h3>
+        <h3>です！</h3>
+        <br><br>
+        <a href="./index.html" style="font-size: 40px;">←戻る←</a>
+    </div>
+</body>
+</html>
