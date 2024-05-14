@@ -1,0 +1,135 @@
+@charset "utf-8";
+body{
+    background-color: #b3f082;
+}
+
+/* 内容量入力欄幅設定 */
+#naiyou_1{
+    width: 40px;
+}
+#naiyou_2{
+    width: 40px;
+}
+#naiyou_3{
+    width: 40px;
+}
+#naiyou_4{
+    width: 40px;
+}
+
+/* 値段入力欄幅とマージンの設定 */
+#nedan_1{
+    width: 50px;
+    margin-top: 10px;
+}
+#nedan_2{
+    width: 50px;
+    margin-top: 10px;
+}
+#nedan_3{
+    width: 50px;
+    margin-top: 10px;
+}
+#nedan_4{
+    width: 50px;
+    margin-top: 10px;
+}
+
+/* optionの幅設定 */
+#tani_1{
+    width: 80px;
+}
+#tani_2{
+    width: 80px;
+}
+#tani_3{
+    width: 80px;
+}
+#tani_4{
+    width: 80px;
+}
+
+/* 商品名のマージン設定 */
+#name_1{
+    margin-bottom: 10px;
+}
+#name_2{
+    margin-bottom: 10px;
+}
+#name_3{
+    margin-bottom: 10px;
+}
+#name_4{
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-left: 40%;
+}
+h1{
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+}
+img{
+    width: 80px;
+}
+
+/* それぞれの比較のdivのボーダーとマージンの設定 */
+#hikaku_1{
+    border: 5px solid rgb(0, 200, 255);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 180px;
+}
+#hikaku_2{
+    border: 5px solid rgb(255, 0, 0);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 180px;
+}
+#hikaku_3{
+    border: 5px solid rgb(255, 0, 251);
+    margin-bottom: 40px;
+    border-radius: 20px;
+    height: 200px;
+}
+#hikaku_4{
+    border: 5px solid rgb(255, 102, 0);
+    margin-bottom: 40px;
+    border-radius: 20px;
+    height: 20
+    0px;
+}
+
+
+.ll{
+    margin-left: 20%;
+}
+
+#okok{
+    margin-left: 15%;
+    width: 70%;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(255, 216, 164);
+    border-radius: 20px;
+}
+#okok:hover {
+    background-color: rgb(255, 167, 52);
+}
+#err{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+#kekka{
+    color: rgb(255,0,0);
+}
+#bbb{
+    display: none;
+}
+#aaa{
+    display: block;
+}
+#ajxt{
+    color: #8a2be2;
+}
